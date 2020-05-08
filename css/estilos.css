@@ -384,9 +384,11 @@ p {
   width: 200px;
   
 }
+.profile-name h1{
+  font-size: 4em;
+  line-height: 0.8em;
+}
 .profile-name {
-  font-size: 2em;
-  line-height: 2.57143em;
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   -ms-box-orient: vertical;
@@ -395,7 +397,7 @@ p {
   -moz-box-pack: center;
   -ms-box-pack: center;
   box-pack: center;
-  display: -webkit-box;
+  /* display: -webkit-box; */
   display: -moz-box;
   display: -ms-box;
   display: box;
@@ -404,11 +406,12 @@ p {
   margin-left: 0px;
   margin-top: 0.03571em;
   text-align: right;
+  
 }
-.profile-name h1 {
+/* .profile-name h1 {
   line-height: 1.07143em;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: middle; */
 }
 .profile-summary {
   text-align: right;
