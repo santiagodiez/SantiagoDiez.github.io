@@ -17,7 +17,7 @@ ol, ul {
   color:#AD2E17;
   font-weight: 500;
 }
-.header{
+.header-contact{
   display: flex;
   justify-content: space-between;
 }
