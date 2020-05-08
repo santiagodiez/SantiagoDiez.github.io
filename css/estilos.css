@@ -17,9 +17,12 @@ ol, ul {
   color:#AD2E17;
   font-weight: 500;
 }
-.header-contact{
+.header_contact ul{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-evenly;
+  border: 1px solid red;
+  align-items: center;
+  height: 30px;
 }
 table {
   border-collapse: collapse;
@@ -340,7 +343,9 @@ p {
   float: left;
   padding-top: 2.85714em;
   padding-bottom: 0.92857em;
-  width: 100%}
+  width: 100%;
+  display: flex;
+}
 .profile-logo {
   *zoom: 1;
   min-height: 80px;
@@ -359,22 +364,25 @@ p {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  display: inline-block;
-  height: 80px;
+ /*  display: inline-block; */
+  height: 100%;
   text-decoration: none;
   vertical-align: middle;
-  width: 80px;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
 }
 .profile-logo [data-picture] {
   float: left;
 }
 .profile-logo-image {
   float: left;
-  height: 80px;
+  height: 200px;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
-  width: 80px;
+  width: 200px;
+  
 }
 .profile-name {
   font-size: 2em;
@@ -393,8 +401,9 @@ p {
   display: box;
   font-weight: 300;
   min-height: 2.57143em;
-  margin-left: 98px;
+  margin-left: 0px;
   margin-top: 0.03571em;
+  text-align: right;
 }
 .profile-name h1 {
   line-height: 1.07143em;
@@ -2013,7 +2022,7 @@ p {
     width: 48.84793%;
     float: left;
     margin-right: 2.30415%;
-    display: inline;
+    display: flex;
   }
   .profile-summary {
     min-height: 80px;
