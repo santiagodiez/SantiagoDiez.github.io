@@ -354,17 +354,17 @@ p {
   float: left;
   padding-top: 2.85714em;
   padding-bottom: 0.92857em;
-  width: 100%;
-  display: flex;
-  
+  width: 100%;  
 }
 .profile-logo {
   *zoom: 1;
   min-height: 80px;
   position: relative;
 }
+.profile-description strong{
+  color: #3E8FBF;
+}
 .profile-logo:before, .profile-logo:after {
-  content: "";
   display: table;
 }
 .profile-logo:after {
@@ -418,7 +418,9 @@ p {
   margin-left: 0px;
   margin-top: 0.03571em;
   text-align: right;
-  
+}
+.topic{
+  margin-bottom: 10px;
 }
 /* .profile-name h1 {
   line-height: 1.07143em;
