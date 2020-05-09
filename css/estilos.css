@@ -20,7 +20,6 @@ ol, ul {
 .header_contact ul{
   display: flex;
   justify-content:space-evenly;
-  border: 1px solid red;
   align-items: center;
   height: 30px;
 }
@@ -2022,10 +2021,10 @@ p {
     clear: none;
   }
   .profile-logo {
-    width: 48.84793%;
+    width: 35.84793%;
     float: left;
     margin-right: 2.30415%;
-    display: flex;
+    
   }
   .profile-summary {
     min-height: 80px;
