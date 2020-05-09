@@ -14,7 +14,7 @@ ol, ul {
   list-style: none;
 }
 .surname{
-  color:#AD2E17;
+  color:#3E8FBF;
   font-weight: 500;
 }
 .header_contact ul{
@@ -22,6 +22,18 @@ ol, ul {
   justify-content:space-evenly;
   align-items: center;
   height: 30px;
+}
+.icons{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+.icons img{
+margin-left: 30px;
+}
+.GitHub{
+  padding-top: 3px;
 }
 table {
   border-collapse: collapse;
@@ -344,6 +356,7 @@ p {
   padding-bottom: 0.92857em;
   width: 100%;
   display: flex;
+  
 }
 .profile-logo {
   *zoom: 1;
@@ -376,7 +389,7 @@ p {
 }
 .profile-logo-image {
   float: left;
-  height: 200px;
+  height: auto;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
@@ -385,7 +398,7 @@ p {
 }
 .profile-name h1{
   font-size: 4em;
-  line-height: 0.8em;
+  line-height: 1.1em;
 }
 .profile-name {
   -webkit-box-orient: vertical;
