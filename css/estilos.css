@@ -2484,4 +2484,8 @@ p {
     height: 12px;
     width: 8px;
   }
+
+  .construction{
+    padding: auto;
+  }
 }
