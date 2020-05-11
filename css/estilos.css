@@ -94,7 +94,7 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .hero {
@@ -114,6 +114,38 @@ h2 {
   object-fit: cover;
 }
 
+.container {
+  /* border: 1px solid red; */
+  max-width: 1000px;
+  /* width: 100%; */
+  flex: 1;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .container-block{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+.name-title{
+  margin: 0 20px;
+  text-align: end;
+  
+}
+
+.name-title h1{
+  font-size: 4em;
+  line-height: 60px;
+}
+.name-title h5{
+  color: white;
+  line-height: 1px;
+  
+}
+
+.description
 
 .portfolio {
   background: #fafafa;
@@ -358,19 +390,6 @@ figure {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container {
-  /* border: 1px solid red; */
-  max-width: 1000px;
-  /* width: 100%; */
-  flex: 1;
-  margin: 0 auto;
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  height: inherit;
-  flex-wrap: inherit;
-}
-
 .burger-button {
   width: 40px;
   height: 40px;
@@ -395,9 +414,7 @@ figure {
   .portfolio {
     padding: 0;
   }
-  .container {
-    padding: 0 1em;
-  }
+  
   .hero {
     height: auto;
     position: relative;
