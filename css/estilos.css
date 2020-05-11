@@ -86,9 +86,8 @@ h1 {
   /* text-decoration: dashed; */
 }
 h1 strong {
-  /* color: #026fff; */
-  color: #98CA3F;
-}
+  color: #026fff;
+  }
 h2 {
   color: #026fff;
   text-transform: uppercase;
