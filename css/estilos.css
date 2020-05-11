@@ -272,7 +272,7 @@ figure {
 
 .footer {
   color: white;
-  background-color: #1b2127;
+  background: linear-gradient(to right, rgba(6,9,66,1) 0%, rgba(0,0,0,1) 55%, rgba(0,0,0,1) 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -335,9 +335,6 @@ figure {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.social {
 }
 
 .social-link {
