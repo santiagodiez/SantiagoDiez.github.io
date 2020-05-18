@@ -1,0 +1,176 @@
+[33mcommit 274ba0bacad054ad01b83eefdbd8de554dc293dd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Wed May 13 08:38:30 2020 -0300
+
+    Cambie ubicacion de imagen
+
+[33mcommit bfced32da1dd89ff3f1d0a53d06653ee71fcff67[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Tue May 12 15:28:59 2020 -0300
+
+    a
+
+[33mcommit 43309590f8efd2060dbf13d34963212c224ff845[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Tue May 12 09:51:14 2020 -0300
+
+    borre imagenes
+
+[33mcommit 5c8f6f3e10bb50a56954f5e0d8c89126608c4d0c[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Mon May 11 18:23:23 2020 -0300
+
+    cambie color footer con detalles
+
+[33mcommit 6052979f6757f006c3381b1c9e325d6b7e4a4657[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Mon May 11 18:20:55 2020 -0300
+
+    cambien color de footer
+
+[33mcommit b1c1f4bd9e082e5b0cb7a2d357dfedba914381a6[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Mon May 11 18:12:42 2020 -0300
+
+    cambie color footer
+
+[33mcommit 894dea230fe7eb20dafa0bd0ef500afdbc70acf5[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Mon May 11 17:53:25 2020 -0300
+
+    Agregue iconos en hero
+
+[33mcommit 57ba99f4f0bc85aed69da6b7c9ffd11e4e433734[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Mon May 11 16:14:54 2020 -0300
+
+    cabio background de hero
+
+[33mcommit 81923235464e86380020f43072fad86ce6430e46[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Mon May 11 10:15:11 2020 -0300
+
+    Se incorporaron fotos y se agrego pormato leonidas
+
+[33mcommit 9c93f68ab23a5830e82a72588469f8f46b6b1b14[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sun May 10 22:11:28 2020 -0300
+
+    faltan los contactos
+
+[33mcommit 845b5e5d4ac03553bde973b8abbca893636960e3[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sun May 10 20:41:02 2020 -0300
+
+    V1
+
+[33mcommit 962f436b0e4739fa83e1141d2f1d283c452cf66c[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sun May 10 18:51:05 2020 -0300
+
+    saque sensing remote
+
+[33mcommit 18746a77a00b688b129e7a1d1b312e4d8fff4063[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sun May 10 18:45:28 2020 -0300
+
+    agregue img de construction
+
+[33mcommit 4fcd4d45a662492db3ebe4fcec7fc25a99305b7d[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sun May 10 12:18:17 2020 -0300
+
+    Areas principales lista para merge
+
+[33mcommit 13935faa91217ff560279daed1547c6efa0d9730[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sat May 9 19:08:45 2020 -0300
+
+    cambie html de icono de twitter
+
+[33mcommit c2213ff37e48ba46e44bf75ca87e98a16e16fa3e[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sat May 9 18:17:07 2020 -0300
+
+    saque menu con lenguajes y areas
+
+[33mcommit 89448f6c7263eb45e6efea459ed4738aa2baf10f[m
+Merge: 2707ab8 232a83c
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sat May 9 17:57:55 2020 -0300
+
+    Merge branch 'master' of github.com:santiagodiez/SantiagoDiez.github.io
+
+[33mcommit 2707ab86bfdd8aaa97e4618a7e0c0c3f50bfa144[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sat May 9 12:37:06 2020 -0300
+
+    Envio paula
+    
+    Please enter the commit message for your changes. Lines starting
+
+[33mcommit 232a83cb197f801c868518151fe1854532c482b6[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sat May 9 12:37:06 2020 -0300
+
+    saque header_termine hero con los iconos_no tengo foto aun
+
+[33mcommit c007520e922f7f63e25219f05d2b58cabdc5ad0b[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sat May 9 12:32:12 2020 -0300
+
+    saque header_termine hero con los iconos_no tengo foto aun
+
+[33mcommit a9e80c41b2b3daa44e323589f208846d65443825[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Sat May 9 10:06:52 2020 -0300
+
+    saque foto de perfil
+
+[33mcommit 2cd00070406a9c578f8c58dc230feabe9ea2da03[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Fri May 8 20:11:39 2020 -0300
+
+    Header 50% hiro 50%
+
+[33mcommit e2fb8aaad755b46aa6d5106dffb31a98f79f5f09[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Fri May 8 17:23:48 2020 -0300
+
+    Avances en header y hero
+
+[33mcommit 85182c8b0d94dc1dfa4cf6de0e4ccfef6d294c32[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Fri May 8 15:18:30 2020 -0300
+
+    trabajando en la cabecera
+
+[33mcommit cf82ad1012fa90cc5e2b2f244b49d84bc27aec0b[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Fri May 8 14:56:33 2020 -0300
+
+    Cabecera 20% y hero 20%
+
+[33mcommit 1cb62f541a32ea28bf035f97eb8396005991bcbd[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Fri May 8 12:31:59 2020 -0300
+
+    Agrego carpeta foto
+
+[33mcommit 481b8b8aeab02a068a00d4ac54d1958c294cb00e[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Fri May 8 12:31:38 2020 -0300
+
+    Agregue favicon
+
+[33mcommit 651d5ce5e9acc217a8089bbd8558534a336eb9fa[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Fri May 8 12:01:07 2020 -0300
+
+    Agrego foto perfil
+
+[33mcommit 508dd916e123035e5b52ca4243bb9c22dec2f393[m
+Author: santiago diez <santiago.n.diez@gmail.com>
+Date:   Fri May 8 11:49:48 2020 -0300
+
+    Html bas de square
