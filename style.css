@@ -15,7 +15,10 @@ body{
 background:  #fafafa;
 letter-spacing: -0.2px;
 }
-
+.grid-header{
+  display: grid;
+  border: 1px solid blue;
+}
 .header{
   text-align: right;
   margin: 100px 0;
@@ -60,7 +63,6 @@ letter-spacing: -0.2px;
   line-height: 1;
   font-size: 25px;
   color: #0F2F5C;
-  text-decoration-line: none;
   
 
   /* Better Font Rendering =========== */
@@ -97,7 +99,6 @@ letter-spacing: -0.2px;
 }
 .icon-social{
   padding: 20px 0 0 0;  
-  background-size: ;
 }
 .icon-social a{
   text-decoration: none;
