@@ -19,20 +19,29 @@ letter-spacing: -0.2px;
   margin: 100px 0;
   height: auto;
   margin: auto; 
-  max-width: 1024px;
+  background-color: #a8d0e6;
+  border-bottom: 2px solid #374785;
 }
 .header h1{
-  color: #B72E40;
+  color: #F76D6c;
   font-size: 70px;
   line-height: 1px;
 }
+.header h1 span{
+  font-family: 'Fjalla One', sans-serif;
+  color:#344785;
+  text-transform: uppercase;
+}
 .header h5{
   margin:5px;
+  color:#374785;
 }
 .photo-name-social{
+  max-width: 1024px;
+  margin: auto;
   display:grid;
   grid-template-columns: 50% 50%;
-  border-bottom: 2px solid #0F2F5C;
+  
 }
 .photo-perfil{
   border: 5px solid grey;
@@ -41,6 +50,8 @@ letter-spacing: -0.2px;
 }
 .perfil-photo .img{
   width: 50%;
+  border-radius: 50%;
+  border:1px solid #344785;
 }
 .name-social{
   margin: auto;
@@ -50,7 +61,7 @@ letter-spacing: -0.2px;
   box-sizing: border-box;
 }
 .social{
-  margin: 15px 0 0 0 ;
+  margin: 30px 0 0 0 ;
 }
 .social a{
   text-decoration: none;
@@ -78,7 +89,7 @@ letter-spacing: -0.2px;
   text-transform: none;
   line-height: 1;
   font-size: 25px;
-  color: #0F2F5C;
+  color: #344785;
   
 
   /* Better Font Rendering =========== */
