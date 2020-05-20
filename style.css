@@ -15,22 +15,11 @@ body{
 background:  #fafafa;
 letter-spacing: -0.2px;
 }
-.grid-header{
-  display: grid;
-  border: 1px solid blue;
-}
 .header{
-  text-align: right;
   margin: 100px 0;
   height: auto;
   margin: auto; 
-}
-.header-container{
   max-width: 1024px;
-  margin: auto;
-  padding: 20px 0;
-  width: 100%;
-  border-bottom: 2px solid #0F2F5C;
 }
 .header h1{
   color: #B72E40;
@@ -39,6 +28,33 @@ letter-spacing: -0.2px;
 }
 .header h5{
   margin:5px;
+}
+.photo-name-social{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  border-bottom: 2px solid #0F2F5C;
+}
+.photo-perfil{
+  border: 5px solid grey;
+  margin: 0;
+  max-width: 25%;
+}
+.perfil-photo .img{
+  width: 50%;
+}
+.name-social{
+  margin: auto;
+  padding: 20px 0;
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+}
+.social{
+  margin: 15px 0 0 0 ;
+}
+.social a{
+  text-decoration: none;
+  margin: 5px;
 }
 @font-face {
   font-family: 'icomoon';
@@ -100,9 +116,7 @@ letter-spacing: -0.2px;
 .icon-social{
   padding: 20px 0 0 0;  
 }
-.icon-social a{
-  text-decoration: none;
-}
+
 
 
 
