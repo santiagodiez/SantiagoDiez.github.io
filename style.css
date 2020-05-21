@@ -78,7 +78,7 @@ p {
 .hero{
     text-align: right;
     display: grid;
-    grid-template: repeat(2, 50%)/25% 75%;
+    grid-template: repeat(2, 50%)/30% 70%;
     margin:30px;
     height: auto;
 }
@@ -88,8 +88,9 @@ p {
     margin:0;
 }
 .hero h1{
-    font-size:5.5vw;
-    margin:6% 0 0 0;
+    font-size:5vw;
+    margin:8% 0 0 0;
+   
 }
 .hero 
 .surname
