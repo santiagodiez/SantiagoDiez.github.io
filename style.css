@@ -80,14 +80,21 @@ p {
     display: grid;
     grid-template: repeat(2, 50%)/25% 75%;
     margin:30px;
+    height: auto;
 }
 .hero span{
     text-transform: uppercase;
     color: #E60023;
+    margin:0;
 }
 .hero h1{
     font-size: 60px;
     margin:6% 0 0 0;
+}
+.hero 
+.surname
+h1{
+  margin:0;
 }
 .greeting h3{
     margin: 20px;
