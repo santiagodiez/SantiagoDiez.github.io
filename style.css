@@ -70,6 +70,7 @@
     top: 0;
     right: 0;
     left: 0;
+    z-index: 10;
   }
   .width-fix{
     max-width: 1024px;
@@ -95,23 +96,22 @@ p {
     display: grid;
     grid-template: repeat(2, 50%)/30% 70%;
     margin:30px;
-    
-    height: auto;
+    height: auto;   
 }
+
 .hero span{
     text-transform: uppercase;
     color: #E60023;
     margin:0;
 }
 .hero h1{
-    font-size:5vw;
-    margin:8% 0 0 0;
-   
+    font-size:60px;   
 }
-.hero 
-.surname
-h1{
-  margin:0;
+.hero strong{
+  position: absolute;
+  bottom: 0;
+  right: 0; 
+  z-index: 1;
 }
 .separation{
   padding: 30px;
@@ -145,6 +145,7 @@ h1{
 }
 .item:nth-of-type(2){
     border-bottom: 2px solid black;
+    position: relative;
 }
 .hero img{
     width: 100%;
