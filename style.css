@@ -155,7 +155,7 @@ p {
 }
 .porfolio{
   display:grid;
-  grid-template: repeat(2, auto) / repeat(4, 236px);
+  grid-template-columns: repeat(auto-fill, 236px);
   grid-gap: 16px;
   justify-content: center;
 }
