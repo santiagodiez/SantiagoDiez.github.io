@@ -160,7 +160,7 @@ p {
   justify-content: center;
 }
 .porfolio{
-  
+
 }
 .porfolio article{
   width: 236px;
@@ -215,7 +215,18 @@ p {
   display: flex;
   animation: inherit;
 }
-
+.level-1{
+  grid-row-end: span 1;
+}
+.level-2{  
+  grid-row-end: span 2;
+}
+.level-3{  
+  grid-row-end: span 3;
+}
+.level-4{
+  grid-row-end: span 4;
+}
 @media screen and (max-width: 768px){
   .hero{
     text-align: center;
