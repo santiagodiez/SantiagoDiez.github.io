@@ -258,8 +258,11 @@ p {
     h3{
       font-size: 16.38px;
     }
-    p{
+    h4{
       font-size: 14px;
+    }
+    p{
+      font-size: 12px;
     }
     [class^="icon-"], [class*=" icon-"] {
       /* use !important to prevent issues with browser extensions that change fonts */
