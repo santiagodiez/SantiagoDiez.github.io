@@ -174,14 +174,40 @@ p {
   margin:5px;
   text-decoration: none;
 }
+.porfolio-img{
+  cursor: pointer;
+  display: block;
+}
 .porfolio-img img{
   border-radius: 20px;
   width: 100%;
   overflow: hidden;
   margin: 0;
   box-shadow: 0px 0px 5px #DEDEE6;
+  vertical-align: top;
+}
+.porfolio-img figure{
+  margin:0;
 }
 .porfolio-title{
   text-align: center;
+}
+.Template-TPS-greyness{
+  background: rgba(250,250,250,0.1);
+  display: none;
+  box-shadow: 0px 0px 20px #DEDEE6;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+.porfolio-platzi .porfolio-img{
+  position: relative;
+  z-index: 1;
+}
+.porfolio-img:hover .Template-TPS-greyness{display: flex;
 }
 
