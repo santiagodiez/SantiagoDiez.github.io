@@ -195,7 +195,7 @@ p {
 .Template-TPS-greyness{
   background: rgba(250,250,250,0.1);
   display: none;
-  box-shadow: 0px 0px 20px #DEDEE6;
+  box-shadow: 0px 0px 30px #DEDEE6;
   border-radius: 20px;
   position: absolute;
   top: 0;
@@ -208,6 +208,60 @@ p {
   position: relative;
   z-index: 1;
 }
-.porfolio-img:hover .Template-TPS-greyness{display: flex;
+.porfolio-img:hover .Template-TPS-greyness{
+  display: flex;
+  animation: inherit;
 }
 
+@media screen and (max-width: 768px){
+  .hero{
+    text-align: center;
+    display: block;
+  }
+  .item img{
+    width: 40%;
+  
+  }
+  .hero strong{  
+    text-align: center;
+    position: static;
+  }
+  .hero h1{
+    margin:20px 0 5px;
+  }
+  .separation{
+    padding: 0 30px;
+  }
+  @media screen and (max-width: 320px){
+    .hero{
+      text-align: center;
+      display: block;
+    }
+    .item img{
+      width: 70%;
+    }
+    .hero strong{  
+      text-align: center;
+      position: static;
+      font-size: 30px;
+    }
+    .hero h1{
+      margin:0;
+      line-height: 40px;
+    }
+    .separation{
+      padding: 0 30px;
+    }
+    .greeting h3 {
+      margin: 5px;
+    }
+    h3{
+      font-size: 16.38px;
+    }
+    p{
+      font-size: 14px;
+    }
+    [class^="icon-"], [class*=" icon-"] {
+      /* use !important to prevent issues with browser extensions that change fonts */
+      font-size: 20px;
+    }
