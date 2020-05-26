@@ -1,3 +1,6 @@
+:root{
+  --color-red:#E60023;
+}
 @font-face {
     font-family: 'icomoon';
     src:  url('icomoon/fonts/icomoon.eot?1i3dpk');
@@ -101,7 +104,7 @@ p {
 
 .hero span{
     text-transform: uppercase;
-    color: #E60023;
+    color: var(--color-red);
     margin:0;
 }
 .hero h1{
@@ -246,7 +249,7 @@ p {
   .separation{
     padding: 0 30px;
   }
-  @media screen and (max-width: 320px){
+  @media screen and (max-width: 425px){
     .hero{
       text-align: center;
       display: block;
@@ -257,7 +260,7 @@ p {
     .hero strong{  
       text-align: center;
       position: static;
-      font-size: 30px;
+      font-size: 20px;
     }
     .hero h1{
       margin:0;
@@ -270,7 +273,7 @@ p {
       margin: 5px;
     }
     h3{
-      font-size: 16.38px;
+      font-size: 20px;
     }
     h4{
       font-size: 14px;
