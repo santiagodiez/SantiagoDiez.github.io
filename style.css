@@ -67,21 +67,44 @@
     box-shadow: 0px 0px 5px #DEDEE6;
     height: 50px;
     background-color: white;
-    padding: 2px 20px ;
-    margin 0;
+    padding: 2px 20px;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
-  header h5{
-    text-decoration: none;
-    text-align: right;
+  .infade{ 
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-name: infade ;
+    animation-name: infade;
+  }
+  @keyframes infade {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  .header-div{
+    width: 100%;
     max-width: 1024px;
-    padding: 0;
-    vertical-align: middle;
-    margin:auto;
+    margin: auto;
+  }
+  header h4{
+    text-align: right; 
+    max-width: 1024px;
+    padding: 0 30px;
+   
+  }
+  header a{
+    text-decoration: none;
+    color:black;
   }
   .width-fix{
     max-width: 1024px;
@@ -172,6 +195,8 @@ p {
 }
 .porfolio article{
   width: 236px;
+  border: 1px solid #DEDEE6;
+  border-radius: 20px;
 }
 .porfolio article h4{
   text-align: center;
@@ -190,12 +215,12 @@ p {
   display: block;
 }
 .porfolio-img img{
-  border-radius: 20px;
   width: 100%;
-  overflow: hidden;
   margin: 0;
-  box-shadow: 0px 0px 5px #DEDEE6;
   vertical-align: top;
+  box-sizing: border-box;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .porfolio-img figure{
   margin:0;
@@ -203,11 +228,16 @@ p {
 .porfolio-title{
   text-align: center;
 }
+article .description{
+  border-bottom: 1px solid #DEDEE6 ;
+  background-color: #FAFAFA;
+}
 .Template-TPS-greyness{
   background: rgba(250,250,250,0.1);
   display: none;
-  box-shadow: 0px 0px 30px #DEDEE6;
-  border-radius: 20px;
+  box-shadow: 0px 0px 5px #DEDEE6;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   position: absolute;
   top: 0;
   bottom: 0;
