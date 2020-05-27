@@ -75,6 +75,14 @@
     left: 0;
     z-index: 10;
   }
+  header h5{
+    text-decoration: none;
+    text-align: right;
+    max-width: 1024px;
+    padding: 0;
+    vertical-align: middle;
+    margin:auto;
+  }
   .width-fix{
     max-width: 1024px;
     margin: auto; 
@@ -161,9 +169,6 @@ p {
   grid-template-columns: repeat(auto-fill, 236px);
   grid-gap: 16px;
   justify-content: center;
-}
-.porfolio{
-
 }
 .porfolio article{
   width: 236px;
