@@ -253,16 +253,16 @@ article .description{
   display: flex;
   animation: inherit;
 }
-.level-1{
+.level-1v{
   grid-row-end: span 1;
 }
-.level-2{  
+.level-2v{  
   grid-row-end: span 2;
 }
-.level-3{  
+.level-3v{  
   grid-row-end: span 3;
 }
-.level-4{
+.level-4v{
   grid-row-end: span 4;
 }
 @media screen and (max-width: 768px){
